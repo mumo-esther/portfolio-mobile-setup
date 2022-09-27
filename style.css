@@ -62,7 +62,7 @@ nav ul li a:hover {
 }
 
 h1 {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 48px;
@@ -73,7 +73,7 @@ h1 {
 }
 
 h2 {
-  font-family: 'Courier New', Courier, monospace;
+  font-family:'Inter', sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 48px;
@@ -87,7 +87,7 @@ h2 {
 }
 
 h6 {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
