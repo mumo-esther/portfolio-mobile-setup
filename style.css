@@ -1,6 +1,4 @@
 * {
-  margin: 10px;
-  padding: 0;
   font-family: 'Inter', sans-serif;
 }
 
@@ -18,7 +16,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 5px;
+  padding-top: 0px;
   padding-left: 8%;
 }
 
@@ -36,9 +34,12 @@ nav {
 }
 
 .nav-list {
+  margin: auto;
+  justify-content: space-around;
   list-style: none;
   padding: 10px 10px;
   display: inline-flex;
+  column-gap: 25px;
 }
 
 nav ul li a {
@@ -71,20 +72,24 @@ nav ul li a:hover {
 h1 {
   font-family: 'Inter', sans-serif;
   font-style: normal;
-  font-weight: 800;
-  font-size: 38px;
-  line-height: 50px;
+  font-weight: 1300px;
+  font-size: 35px;
   text-align: center;
   letter-spacing: 0.37px;
   color: #172b4d;
+  margin-bottom: -25px;
+}
+
+.content {
+  margin-top: -450px;
 }
 
 h2 {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 800;
-  font-size: 38px;
-  line-height: 50px;
+  font-size: 35px;
+  padding: 0.1px;
   text-align: center;
   letter-spacing: 0.37px;
   color: rgb(6, 202, 137);
@@ -96,26 +101,25 @@ h2 {
 .supporting-text {
   font-family: 'Inter', sans-serif;
   font-style: normal;
-  font-weight: 400;
-  font-size: 15px;
+  font-weight: 600;
+  font-size: 12px;
   line-height: 30px;
   text-align: center;
   letter-spacing: 0.37px;
   color: #172b4d;
   max-width: 500px;
   margin: auto;
-  padding: 0.5rem;
+  padding: 0px;
 }
 
 .socialmedia {
+  list-style: none;
   display: flex;
-  align-items: center;
+  flex-direction: row;
+  column-gap: 25px;
   justify-content: center;
-  position: relative;
-  height: 20px;
-  margin: auto;
-  width: 100%;
-  padding: 2rem;
+  padding: 0.5rem;
+  height: 50px;
 }
 
 .disabled {
@@ -146,17 +150,6 @@ h2 {
   cursor: pointer;
 }
 
-#check {
-  display: none;
-}
-
-#check:checked ~ .nav-list {
-  height: 100vh;
-}
-
-#check:checked ~ .nav-list li {
-  opacity: 1;
-}
 
 @media (max-width: 700px) {
   .nav {
@@ -180,5 +173,11 @@ h2 {
 @media (max-width: 480px) {
   .disabled {
     position: relative;
+  }
+}
+
+@media (min-width: 700px){
+  .hambuger-btn{
+    display: none;
   }
 }
