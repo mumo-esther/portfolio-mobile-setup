@@ -16,7 +16,6 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 0px;
   padding-left: 8%;
 }
 
@@ -109,7 +108,6 @@ h2 {
   color: #172b4d;
   max-width: 500px;
   margin: auto;
-  padding: 0px;
 }
 
 .socialmedia {
@@ -150,7 +148,6 @@ h2 {
   cursor: pointer;
 }
 
-
 @media (max-width: 700px) {
   .nav {
     height: 100vh;
@@ -176,8 +173,8 @@ h2 {
   }
 }
 
-@media (min-width: 700px){
-  .hambuger-btn{
+@media (min-width: 700px) {
+  .hambuger-btn {
     display: none;
   }
 }
